@@ -1,0 +1,104 @@
+  .i.bi.bi-facebook ,.twitter ,.linkedin {
+        padding: 0px 11px;
+        
+    }
+    .bg-header {
+        background-color:  #edf1fc;
+        padding: 9px 10px;
+    }
+    h6{
+      color: #6c7176;
+    }
+    /* -------------------------------SECTION-3-------------------------------- */
+    .bg-reparing {
+      background-image: url(images/carousel-1.jpg);
+      background-repeat: no-repeat;
+      height: 1079px;
+      background-position: center;
+      background-blend-mode: multiply;
+      background-color: #808080eb;
+      margin-bottom: 107px;
+  }
+    .about-2 img {
+        position: absolute;
+        top: 52%;
+        right: 52%;
+    }
+    .about-icon p {
+    color:#1e60aa;
+    font-weight: 600;
+    font-size: 17px;
+    }
+    .about-icon i {
+      color: green;
+      font-size: 21px;
+      padding: 0px 7px;
+  }
+  /* -----------------------------------------SECTION-6------------------------------------------------- */
+  .bg-data {
+    background-image: url(images/bg\ about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+/* ------------------------------------------SECTION-7----------------------------------------------------- */
+.rotate-text  {
+  padding: 167px 0px; 
+  background-color: #1e60aa;
+}
+.rotate-text h3{
+  font-weight: 600;
+} 
+
+
+
+/* ------------------------------------------SECTION-8----------------------------------------------------- */
+.bg-service{
+  background-image: url(images/carousel-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: grey;
+  background-blend-mode: multiply;
+  margin-top: 100px;
+  padding: 275px 0px;
+}
+.rounded-circle {
+  margin-left: 44%; 
+  font-size: 43px; 
+  padding: 13px 25px;
+   color: #1e60aa;
+   border: none  
+}
+/* --------------------------------------------------SECTION-9----------------------------------------------- */
+ .team-text {
+  text-align: center; 
+  background-color: #edf1fc;
+}
+.bg-full{
+  padding: 22px 0;
+}
+
+/* --------------------------------------------------SECTION-10---------------------------------------------------- */
+
+
+
+
+/* --------------------------------------------------SECTION-11-------------------------------------------------- */
+.social button {
+  padding: 7px 3px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: #17224d;
+  color: white;
+
+}
+.upsig {
+  position: absolute;
+  top: 8px;
+  right: 5px;
+  background-color: #1e60aa;
+  color: white;
+}

@@ -1,0 +1,247 @@
+.navbar-brand h2{
+    font-size: 33px;
+    font-weight: 700;
+    margin: 0;
+}
+ .hero {
+    background-image: url(images/medilab-img.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.welcome h1{
+    font-weight: 700;
+    color:#2c4964;
+    font-size: 47px;
+}
+.welcome p {
+    font-size: 23px;
+    font-weight: 400;
+    color: #0c0a0aad;
+}
+.box-medi h3 {
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 26px 0px;
+}
+a.nav-links {
+    text-decoration: none;
+    color: #484242e8;
+}
+/* ---------------------------------------------------------------------SECTION-2--------------------------------------------------------------- */
+.clip-board {
+color: #2c4964;
+font-weight: 700;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.about-section{
+    padding: 60px 0px;
+}
+/* -------------------------------------------------------------SECTION-3-------------------------------------------- */
+.play-bi {
+    position: absolute;
+    left: calc(50% - 44px);
+    top: calc(50% - 40px);
+    font-size: 44px;
+    background-color: #1977cc;
+    border-radius: 50%;
+    width: 71px;
+    height: 71px;
+    text-align: center;
+}
+.us-about{
+    position: relative;
+}
+/* ---------------------------------------------------------SECTION-4--------------------------------------------------- */
+ .stats-item {
+    margin-top: -27px;
+    padding: 30px 30px 25px 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 0;
+}
+.persons i {
+    color: white;
+    background-color: #1977cc;
+    width: 54px;
+    height: 54px;
+    font-size: 24px;
+    border: 2px solid ;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+ .stats-item h4 {
+    font-size: 32px;
+    display: block;
+    margin: 10px 0;
+    font-weight: 700;
+    color: #2c4964;
+}
+.stats-item p {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+/* -------------------------------------------------------SECTION-5----------------------------------------------------- */
+.heading h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 65px;
+    height: 3px;
+    background: #1977cc;
+    left: -10px;
+    right: 0;
+    margin: auto;
+    margin-top: 14px;
+}
+.heading h2:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 160px;
+    height: 1px;
+    background: rgb(128, 127, 127);
+    left: -13px;
+    right: 0;
+    margin: auto;
+    top: 54px;
+}
+ .services-item {
+    padding: 80px 20px;
+    height: 100%;
+}
+
+.services-item:hover{
+    background-color:#1977cc;
+    color: white;
+    
+    .stretched-link{
+        color: white;
+    }
+}
+ .services-item .icon::before {
+    position: absolute;
+    content: "";
+    left: -8px;
+    top: -8px;
+    height: 100%;
+    width: 100%;
+    background: #1977cc;
+    border-radius: 5px;
+}
+.stretched-link{
+color: #2c4964; 
+font-size: 24px; 
+font-weight: bold;
+}
+.section-title{
+    position: relative;
+}
+
+/* ----------------------------------------------------------SECTION-6--------------------------------------------- */
+.img-tab img {
+    width: 100%;
+}
+.nav-link{
+        border-right: 1px solid #f0f0f0 !important;
+        border-radius: 0 !important;
+    }
+    .nav-link.active{
+        color: blue !important;
+        border-color: blue !important;
+    }
+
+/* -------------------------------------------------------SECTION-7------------------------------------------- */
+.round {
+    background-color: #d3d3d35e;
+    color: grey;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+
+.emp-img h6::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #d9d3d3;
+    position: absolute;
+    
+}
+/* -----------------------------------------------------------SECTION-8---------------------------------------------*/
+.collapsed {
+color: #2c4964;
+}
+.collapsed:hover{
+    color: #1977cc;
+}
+
+/* --------------------------------------------------------------SECTION-10------------------------------------------- */
+.text-row img{
+ width: 20%;
+ height: 100%;
+ border-radius: 50%;
+}
+/* -----------------------------------------------------------SECTION-11-------------------------------------------- */
+.light-box img {
+    width: 100%;
+}
+.text-locate h5{
+    color: #2c4964; 
+    font-weight: bold;
+}
+.text-locate p{
+    color: grey;
+}
+.locat {
+    background-color: #1977cc;
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/* ------------------------------------------------------------SECTION-13------------------------------------------ */
+.round2 {
+    color: #4e4848d9;
+    width: 39px;
+    height: 38px;
+    border-radius: 50%;
+    margin-right: 9px;
+    padding-top: 3px;
+    border: 1px solid #808080eb;
+    font-size: 17px;
+}
+.links-footer a {
+    text-decoration: none;
+    color: gray;
+}
+.links-footer ul{
+list-style: none;
+}
+.links-footer{
+font-size: 14px;
+ }
+.links-us{
+ color: #2c4964;
+}
+
+.copyright{
+    font-size: 14px;
+}

@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Navbar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <style>
+    .navbar-brand {
+      font-weight: bold;
+    }
+    .btn-contact {
+      background-color: green;
+      color: white;
+    }
+    .Service{
+      background-color: white; 
+      padding: 77px 48px;
+    }
+    /* i.bi.bi-activity {
+    font-size: 35px;
+    background-color: #10bc69f2;
+    color: white;
+} */
+
+.Service .icon i {
+    color:white;
+    font-size: 28px;
+    background-color: #10bc69f2;
+}
+  .col-head{
+    color: #5f687b;
+     text-align: center;
+     margin-top: 13px;
+}
+.content .icon i {
+    color:#10bc69f2 ;
+    font-size: 36px;
+    transition: 0.3s;
+}
+.quote-bi{
+  background-color: #d3d3d336; 
+  padding: 55px 22px;
+}
+.img-slide{
+  position: absolute;
+  top: 160px;
+  left: 31px;
+}
+.Founder{
+  margin: 62px 4px;
+}
+.chief {
+    background-color: white;
+    padding: 15px 28px;
+    width: 90%;
+    position: absolute;
+    top: 296px;
+    right: 18px;
+}
+.chief h5{
+  color:#605d5d;
+}
+.walter-img{
+  position: relative;
+}
+hr {
+    margin-top: 1rem;
+    border: 0;
+    border-top: 1px solid rgb(0 0 0 / 29%);
+    margin-bottom: 6px;
+}
+  .para-cf {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    color: #808080f0;
+    margin-right: 64%;
+}
+.social a {
+    color: #80808054;
+}
+.deatils i {
+  font-size: 20px;
+}
+.cont-head h5{
+color: #5f687b;
+}
+.cont-head p{
+ color:#444444;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a style=" color:#5f687b;" class="navbar-brand " href="#"><h2>eNno</h2></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav  ">
+        <li class="nav-item active  ">
+          <a class="nav-links" href="#">Home</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-links" href="#">About</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-links" href="#">Services</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-links" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-links" href="#">Team</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-links dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+          </div>
+          <li class="nav-item px-3">
+            <a class="nav-links" href="#">Contact</a>
+        </li>
+      </ul>
+      <a  class="btn btn-success rounded-pill px-4 py-2" href="#">Get Start</a>
+    </div>
+  </nav>
+</div>
+<!---------------------------------------------------------SECTION-2----------------------------------------------------->
+<div class="hero">
+  <div class="container">
+  <div class="row align-items-baseline">
+    <div class="col-md-6">
+       <h1>Elegant and creative solutions</h1>
+       <p>We are team of talented designers making websites with Bootstrap</p>
+       <div class="main-bg d-flex align-items-center gap-4"> 
+        <div class="main-btn">
+        <button type="button" class="btn btn-success rounded-pill  w-100">Get Started</button>
+      </div>
+        <div  class="watching px-3">
+          <i style="font-size:30px; color: #10bc69;" class="bi bi-play-circle"></i>
+        <button  style="border: none; color: black; font-weight: 700;"  class="btn-watch btn-md bg-white ">Watch Video</button> 
+       </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <img  style="width: 100%;"  src="images/company.png">
+    </div>
+  </div>
+  </div>
+ 
+</div> 
+<!-------------------------------------------------SECTION-3------------------------------------------------------------->
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+  <div class="content px-4 py-5 my-4" style="background-color: #d3d3d336;">
+    <!-- <i class= " chg bi bi-activity " style="font-size: 30px;"></i> -->
+    <div class="icon"><i class="bi bi-activity icon"></i></div>
+    <h4>Lorem ipsum</h4>
+    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="content px-4 py-5 my-4" style="background-color: #d3d3d336;">
+    <i  class="bi bi-bounding-box-circles" style="font-size: 30px; padding: 20px 0px;color: #10bc69;"></i>
+    <h4>Sed ut perspici</h4>
+    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="content px-4 py-5 my-4" style="background-color: #d3d3d336;">
+    <i class="bi bi-calendar3" style="font-size: 30px; padding: 20px 0px;color: #10bc69;"></i>
+    <h4>Magni Dolores</h4>
+    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+  </div>
+</div>
+</div> 
+</div>
+<!-- ------------------------------------------------SECTION-4------------------------------------------------------ -->
+<div class="section-about-us" style="padding: 120px 0px;">
+<div class="container">
+  <div class="about-us-bg" style="position: relative;">
+    <h1 style="text-align:center; opacity:0.04; font-size:50px;">ABOUT US</h1>
+<h2 style="text-align:center; font-size:31px; position: absolute;top:28px; right:45%; color:  #5f687b;">ABOUT </h2>
+<p style="text-align: center; margin:25px 0px; color: #404850; font-size: 17px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit </p>
+
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="about-us-image">
+      <img class="about-us-img mw-100" src="images/about-us.png">
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="about-us-content">
+      <h3 style="font-size: 29px; color: #5f687b;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores sed voluptates expedita eveniet repellat non fuga</h3>
+      <p style="font-style: italic;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, provident odit quasi dignissimos suscipit consectetur asperiores porro doloremque atque.</p>
+      <ul class="about-us-ul p-0">
+        <li style="list-style: none;" class="about-us-list-unstyled py-1 ">
+          <p><i class="bi bi-check2-all mx-2" style="color:#10bc69; font-size: 25px;"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p><i class="bi bi-check2-all mx-2" style="color:#10bc69; font-size:25px"></i>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+          <p><i class="bi bi-check2-all mx-2" style="color:#10bc69; font-size:25px;"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</p>
+        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+<!-- ---------------------------------------------------SECTION-5------------------------------------------------------->
+<div style="text-align: center;" class="bg-num "> 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+          <h1 style="color: #10bc69; font-size:48px;">232</h1>
+          <p style="color:#9d9696; font-weight: 500;">Clients</p>
+  
+  </div>
+          <div class="col-md-3">
+              <h1 style="color: #10bc69; font-size: 48px;">521</h1>
+              <p style="color:#9d9696; font-weight: 500;">Projects</p>
+          </div>
+              <div class="col-md-3">
+                  <h1 style="color: #10bc69; font-size: 48px;">1453</h1>
+                  <p style="color:#9d9696;">Hours Of Support</p>
+              </div>
+                  <div class="col-md-3">
+                      <h1 style="color: #10bc69; font-size: 48px;">34</h1>
+                      <p style="color: #9d9696;">Workers</p>
+                  </div>
+
+     
+  </div>
+</div>
+</div>
+<!-- ------------------------------------------------------SECTION-6---------------------------------------------------->
+<div class="section-about-us" style="padding: 120px 0px; background-color:rgb(249 245 245 / 74%)">
+  <div class="container">
+    <div class="about-us-bg" style="position: relative;">
+      <h1 style="text-align:center; opacity:0.05; font-size:50px;">SERVICES</h1>
+  <h2 style="font-size:31px; position: absolute;top:28px; right:44%; color:  #5f687b;">SERVICES </h2>
+  <p style="text-align: center; margin:25px 0px; color: #404850; font-size: 17px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit </p>
+    </div>
+<div class="bg-service">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="Service my-4 shadow-sm bg-body rounded ">
+        <div class="icon text-center">
+          <i class="bi bi-activity rounded  px-3 py-2"></i></div>
+          <h4 class="col-head" >Nesciunt Mete</h4>
+          <p style="text-align: center;">When you want to write a paragraph, most of the time you should start off by coming up with an idea</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="Service my-4 shadow-sm  bg-body rounded" >
+        <div class="icon text-center">
+          <i class="bi bi-broadcast rounded  px-3 py-2"></i></div>
+          <h4 class="col-head">Eosle Commodi</h4>
+          <p style="text-align: center;">When you want to write a paragraph, most of the time you should start off by coming up with an idea</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Service my-4 shadow-sm  bg-body rounded">
+        <div class="icon text-center">
+          <i class="bi bi-easel rounded  px-3 py-2"></i></div>
+          <h4 class="col-head">Ledo Markt</h4>
+          <p style="text-align: center;">When you want to write a paragraph, most of the time you should start off by coming up with an idea</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Service my-4 shadow-sm bg-body rounded">
+        <div class="icon text-center">
+          <i class="bi bi-bounding-box-circles rounded  px-3 py-2" ></i></div>
+          <h4 class="col-head">Asperiores Commodit</h4>
+          <p style="text-align: center;">When you want to write a paragraph, most of the time you should start off by coming up with an idea</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Service my-4 shadow-sm  bg-body rounded">
+        <div class="icon text-center">
+          <i class="bi bi-calendar-week rounded  px-3 py-2" ></i></div>
+          <h4  class="col-head">Velit Doloremque</h4>
+          <p style="text-align: center;">When you want to write a paragraph, most of the time you should start off by coming up with an idea</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Service my-4 shadow-sm  bg-body rounded" >
+        <div class="icon text-center ">
+          <i class="bi bi-chat-square-text rounded px-3 py-2 "></i></div>
+          <h4  class="col-head" >Dolori Architecto</h4>
+          <p style="text-align: center;">When you want to write a paragraph, most of the time you should start off by coming up with an idea</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<!-- ----------------------------------------------------------------SECTION-7--------------------------------------------------------------->
+<!-- <div class="section-about-us" style="padding: 120px 0px; background-color:rgb(249 245 245 / 74%)">
+  <div class="container">
+    <div class="about-us-bg" style="position: relative;">
+      <h1 style="text-align:center; opacity:0.05; font-size:50px;">TESTIMONIALS</h1>
+  <h2 style="font-size:33px; position: absolute;top:28px; right:39%; color:  #5f687b;">TESTIMONIALS</h2>
+  <p style="text-align: center; margin:25px 0px; color: #404850; font-size: 17px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit </p>
+    </div>
+
+    <div class="row">
+       <div class="slider">  
+      <div class="col-md-4">
+        <div class="Founder" style="position: relative;">
+          <div class="quote-bi rounded">
+         <p style="font-style: oblique; color:#959191; font-weight: 400;"><i class="bi bi-quote text-success"></i>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.<i class="bi bi-quote text-success"></i></p>
+        </div>
+        <div class="img-slide">
+        <img  style="width: 30%; padding: 5px 5px; background-color: white; border-radius: 50px; " src="images/testimonials-1.jpg" alt="">
+        <h5 style="color: #5f687b;">Saul Goodman</h5>
+        <h6 style="font-size: 15px; color: #444444c2;">Ceo & Founder</h6>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Founder" style="position: relative;">
+          <div class="quote-bi rounded">
+         <p style="font-style: oblique; color:#959191; font-weight: 400;"><i class="bi bi-quote text-success"></i>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.<i class="bi bi-quote text-success"></i></p>
+        </div>
+        <div class="img-slide">
+        <img  style="width: 30%; padding: 5px 5px; background-color: white; border-radius: 50px; " src="images/testimonials-2.jpg" alt="">
+        <h5 style="color: #5f687b;">Saul Goodman</h5>
+        <h6 style="font-size: 15px; color: #444444c2;">Ceo & Founder</h6>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Founder" style="position: relative;">
+          <div class="quote-bi rounded">
+         <p style="font-style: oblique; color:#959191; font-weight: 400;"><i class="bi bi-quote text-success"></i>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.<i class="bi bi-quote text-success"></i></p>
+        </div>
+        <div class="img-slide">
+        <img  style="width: 30%; padding: 5px 5px; background-color: white; border-radius: 50px; " src="images/testimonials-3.jpg" alt="">
+        <h5 style="color: #5f687b;">Saul Goodman</h5>
+        <h6 style="font-size: 15px; color: #444444c2;">Ceo & Founder</h6>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Founder" style="position: relative;">
+          <div class="quote-bi rounded">
+         <p style="font-style: oblique; color:#959191; font-weight: 400;"><i class="bi bi-quote text-success"></i>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.<i class="bi bi-quote text-success"></i></p>
+        </div>
+        <div class="img-slide">
+        <img  style="width: 30%; padding: 5px 5px; background-color: white; border-radius: 50px; " src="images/testimonials-4.jpg" alt="">
+        <h5 style="color: #5f687b;">Saul Goodman</h5>
+        <h6 style="font-size: 15px; color: #444444c2;">Ceo & Founder</h6>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Founder" style="position: relative;">
+          <div class="quote-bi rounded">
+         <p style="font-style: oblique; color:#959191; font-weight: 400;"><i class="bi bi-quote text-success"></i>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.<i class="bi bi-quote text-success"></i></p>
+        </div>
+        <div class="img-slide">
+        <img  style="width: 30%; padding: 5px 5px; background-color: white; border-radius: 50px; " src="images/testimonials-5.jpg" alt="">
+        <h5 style="color: #5f687b;">Saul Goodman</h5>
+        <h6 style="font-size: 15px; color: #444444c2;">Ceo & Founder</h6>
+      </div>
+      </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="Founder" style="position: relative;">
+          <div class="quote-bi rounded">
+         <p style="font-style: oblique; color:#959191; font-weight: 400;"><i class="bi bi-quote text-success"></i>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.<i class="bi bi-quote text-success"></i></p>
+        </div>
+        <div class="img-slide">
+        <img  style="width: 30%; padding: 5px 5px; background-color: white; border-radius: 50px; " src="images/testimonials-2.jpg" alt="">
+        <h5 style="color: #5f687b;">Saul Goodman</h5>
+        <h6 style="font-size: 15px; color: #444444c2;">Ceo & Founder</h6>
+      </div>
+      </div>
+      </div>
+     </div> 
+  </div>
+  </div>
+</div>
+
+ -->
+
+<!---------------------------------------------------SECTION-8--------------------------------------------------------->
+
+<div class="section-about-us" style="padding: 120px 0px; background-color:rgb(249 245 245 / 74%)">
+  <div class="container">
+    <div class="about-us-bg" style="position: relative;">
+      <h1 style="text-align:center; opacity:0.05; font-size:50px;">SECTION TITLE</h1>
+  <h2 style="font-size:36px; position: absolute;top:28px; right:46%; color:  #5f687b;">TEAM</h2>
+  <p style="text-align: center; margin:25px 0px; color: #404850; font-size: 17px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit </p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="walter-img">
+        <img  style="width: 100%;" src="images/walter-1.jpg" alt="">
+        <div  class="chief shadow-sm p-3 mb-5 bg-white rounded">
+          <h5>Walter White</h5>
+          <div  style="width: 20%; color: black;"  class="line">
+            <hr>
+          </div>
+          <div class="site d-flex ">
+            <p  style="margin-right: 28%;"  class="para-cf">Chief Executive Officer</p>
+            <div class="social">
+              <a href="">
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="walter-img">
+        <img  style="width: 100%;" src="images/walter-2.jpg" alt="">
+        <div class="chief shadow-sm p-3 mb-5 bg-white rounded ">
+          <h5>Sarah Jhonson</h5>
+          <div  style="width: 20%; color: black;"  class="line">
+            <hr>
+          </div>
+          <div class="site d-flex ">
+            <p style="margin-right: 38%;" class="para-cf">Product Manager</p>
+            <div class="social">
+              <a href=""> 
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="walter-img">
+        <img  style="width: 100%;" src="images/walter-3.jpg" alt="">
+        <div  class="chief shadow-sm p-3 mb-5 bg-white rounded ">
+          <h5>William Anderson</h5>
+          <div  style="width: 20%; color: black;"  class="line">
+            <hr>
+          </div>
+          <div class="site d-flex ">
+          <p class="para-cf">CTO</p>
+          <div class="social">
+            <a href="">
+              <i class="bi bi-twitter-x"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--------------------------------------------------SECTION-9 ----------------------------------------------------------->
+  <div class="section-about-us" style="padding: 120px 0px; background-color:rgb(249 245 245 / 74%)">
+    <div class="container">
+      <div class="about-us-bg" style="position: relative;">
+        <h1 style="text-align:center; opacity:0.05; font-size:50px;">SECTION TITLE</h1>
+    <h2 style="font-size:36px; position: absolute;top:26px; right:42%; color:  #5f687b;">CONTACT</h2>
+    <p style="text-align: center; margin:25px 0px; color: #404850; font-size: 17px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit </p>
+      </div>
+
+  
+    <div class="row ">
+      <div  style="gap: 45px;" class="form d-flex">
+      <div class="col-md-5 ">
+        <div  class="deatils bg-white shadow-sm p-3 mb-5 bg-body rounded">
+        <div class=" cont-head d-flex">
+          <i  class="bi bi-geo-alt px-3 mt-4 "></i>
+          <div class="loc-head mt-3">
+            <h5>Address</h5>
+            <p>A108 Adam Street, New York, NY 535022</p>
+          </div>
+      </div>
+      <div class="cont-head d-flex">
+        <i class="bi bi-telephone px-3 mt-2"></i>
+        <div class="call">
+          <h5>Call Us</h5>
+          <p>+1 5589 55477 66</p>
+        </div>
+      </div>
+
+      <div class="cont-head d-flex">
+        <i  class="bi bi-envelope px-3 mt-2"></i>
+        <div class="call">
+          <h5>Email Us</h5>
+          <p>info@example.com</p>
+        </div>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27444.613585414278!2d76.6971184!3d30.702183999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1733120609000!5m2!1sen!2sin"
+       width="400" height="300" style="border:0; padding: 3px 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  </div>
+
+  
+ 
+    
+      <div class=" col-md-7 bg-white">
+       <form>
+        <div class="row">
+          <div class="col-md-6">
+           <label for="name-field" class="pb-2">Your Name</label>
+           <input type="text" id="name-field" class="form-control" required> 
+          </div>
+          <div class="col-md-6">
+            <label for="email-field" class="pb-2">Your Email</label>
+            <input type="email" id="email-field" class="form-control" required> 
+           </div>
+           <div class="col-md-12">
+            <label for="subject-field" class="pb-2">Subject</label>
+            <input type="text"  class="form-control" name="subject" id="subject-field" required> 
+           </div>
+           <div class="col-md-12">
+            <label for="message-field" class="pb-2">Message</label>
+            <textarea  class="form-control" name="message" rows="10" id="message-field" required>
+            </textarea> 
+           </div>
+           <div class="col-md-12 text-center">
+           <button style=" background-color:#10bc69;color: white; border-radius: 50px; border: 0; padding: 10px 30px; margin-top: 27px;" type="submit">Send Message</button>
+           </div>
+           
+        </div>
+       </form>
+</div>
+</div>
+  </div>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+ 
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>  -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js" integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+          AOS.init();
+      </script>
+
+<script>
+$('.slider').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 3,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+</script> -->
